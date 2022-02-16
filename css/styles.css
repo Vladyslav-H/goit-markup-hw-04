@@ -58,6 +58,8 @@ h6 {
 }
 .image {
   display: block;
+  max-width: 100%;
+  height: auto;
 }
 .container {
   width: 1200px;
@@ -270,6 +272,16 @@ h6 {
 }
 .team-text .desc {
   text-align: center;
+}
+/* Постоянные клиенты */
+.clients-title {
+  color: var(--title-text-color);
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+.clients-list {
+  display: flex;
 }
 
 /*Подвал*/
